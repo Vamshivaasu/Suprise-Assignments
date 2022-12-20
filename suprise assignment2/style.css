@@ -20,7 +20,8 @@ a{
     margin: 20px;
 }
 a:hover{
-    color: grey;
+    background-color: grey;
+    
 }
 .middle{
     height: 300px;
@@ -67,8 +68,14 @@ h1{
     border: 1px solid black;
     border-radius: 20px;
     margin: 40px;
-    box-shadow: 5px 10px 15px #888888;
+    box-shadow: 5px 10px 18px #888888;
+    
 }
+.flex >div:hover{
+    transform: scale(1.1);
+
+}
+
 .footer{
     background-color: rgb(93, 98, 102);
     text-align: center;
@@ -99,6 +106,10 @@ h1{
         margin-top: 10px;
         display: flex;
         flex-direction: column;
+    }
+    .flex >div:hover{
+        transform: scale(1.1);
+    
     }
 
 
